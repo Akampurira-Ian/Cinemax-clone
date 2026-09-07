@@ -1,13 +1,13 @@
 import Nav from "./component/Nav";
-
+import Trends from "./component/Trends";
 
 const App = () => {
   return (
-    <>
-     <Nav />
-    </>
+    <div className="bg-black px-30 text-white">
+      <Nav />
+      <Trends />
+    </div>
   );
-}
+};
 
-
-export default App
+export default App;
